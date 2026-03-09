@@ -1,0 +1,537 @@
+ @media screen and (min-width: 992px) {
+    .mobile-only {
+        display: none !important;
+    }
+
+    .desk-only {
+        display: block !important;
+    }
+} 
+
+@media screen and (max-width: 1199px) {
+    :root {
+        --h1: normal 500 46px/1.3 var(--first-font);
+        --h2: normal 500 36px/1.3 var(--first-font);
+        --h3: normal 500 28px/1.3 var(--first-font);
+        --h4: normal 500 24px/1.3 var(--first-font);
+        --h5: normal 500 20px/1.3 var(--first-font);
+        --h6: normal 500 16px/1.3 var(--second-font);
+    }   
+
+    .user-overview-section .btn {
+        font-size: 14px;
+    }
+
+    .user-actions {
+        gap: 6px;
+    }
+
+    /**** log in page css  ****/ 
+
+    .image-section {
+        display: none;
+    }
+    /* Jobs Menu  */ 
+    .job-filter .search-input{
+        max-width: 100%; 
+    }
+    .job-filter .btn {
+        width: 100%;
+    }
+    .jobs-tabs {
+        margin-top: 20px;
+    }
+    .common-table .client-name {
+        min-width: 240px;
+    }
+   .quote-content.invoice-content .form-group label {
+        min-width: 140px;
+    }
+} 
+
+@media screen and (max-width: 991px) {
+    :root {
+        --h1: normal 500 36px/1.3 var(--first-font);
+        --h2: normal 500 32px/1.3 var(--first-font);
+        --h3: normal 500 26px/1.3 var(--first-font);
+        --h4: normal 500 22px/1.3 var(--first-font);
+        --h5: normal 500 18px/1.3 var(--first-font);
+        --common-text: normal 400 14px/1.3 var(--second-font);
+    }
+
+    .section-title {
+        margin: 0 0 18px;
+    }
+
+    .pt {
+        padding-top: 30px;
+    }
+
+    .pb {
+        padding-bottom: 30px;
+    }
+
+    .sidebar {
+        left: -250px; 
+        top: 0;
+        z-index: 3;
+        transition: left 0.3s ease;
+        -webkit-transition: left 0.3s ease;
+        -moz-transition: left 0.3s ease;
+        -ms-transition: left 0.3s ease;
+        -o-transition: left 0.3s ease;
+    } 
+  
+    .sidebar.active { 
+        left: 0;
+    }
+
+    .logo-col {
+          padding: 10px 0px;
+           border-bottom: 1px solid var(--border-color);
+    }
+
+    .sidebar-menu {
+        padding: 0px 10px 10px;
+    }
+
+    .about-profile-left img {
+        max-width: 70px;
+        width: 100%;
+    } 
+
+    .sidebar {
+        gap: 10px;
+    }
+    .mobile-menu-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        width: 40px;
+        padding: 5px;
+        border-radius: 50px;
+        border: none;
+        background-color: rgb(46, 52, 93);
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+    }
+
+    .main-content {
+        margin-left: 0;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .close-sidebar-btn {
+        display: block;
+    }  
+
+    .stat-box {
+        max-width: 190px;
+    } 
+
+    .user-overview-section {
+        gap: 15px;
+        padding: 15px;
+    }  
+
+    .settings-form .form-control ,
+    .settings-form .text-form-control ,
+    .security-setting .toggle-row {
+        max-width: 100%;
+    }
+
+  
+}
+
+@media screen and (max-width: 767px) {
+    :root {
+        --h1: normal 500 32px/1.3 var(--first-font);
+        --h2: normal 500 26px/1.3 var(--first-font);
+        --h3: normal 500 24px/1.3 var(--first-font);
+        --h4: normal 500 20px/1.3 var(--first-font);
+    }
+
+    .btn {
+        padding: 8px 11px;
+        font-size: 14px;
+    } 
+       .btn svg {
+        min-height: 15px;
+        min-width: 15px;
+    }
+    .log-in-page .btn,
+    .input-box, 
+    .log-in-page .nice-select {
+        height: 40px;
+    }
+    
+    .notification-dropdown {
+        right: -45px;
+    }
+    .log-in-page .btn {
+        margin-top: 15px;
+    }
+   
+    #dashboard-section {
+        padding: 0px;
+        box-shadow: none;
+    } 
+
+    .user-profile img ,
+    .upgrade-btn svg {
+        height: 22px;
+        width: 22px;
+    }  
+
+    .about-profile-right .upgrade-btn {
+        padding: 8px; 
+    }
+
+    .site-header { 
+    padding: 10px 0px;
+    height: 60px;
+    }
+    
+    .common-popup { 
+        max-width: 530px;
+    } 
+    .signup-popup {
+        padding: 20px 15px;
+    }
+    .form-img-upload .custom_img {
+        width: auto;
+        max-width: auto;
+        min-width: auto;
+    }
+     /* jobs task */
+    .date-time {
+        flex-direction: column;
+        align-items: start;
+    }
+    .filter-align {
+        justify-content: inherit;
+    }
+    /**** quote-preview css  ****/
+    .preview-quotes-wrp .text-info {
+        max-width: 50%;
+    }
+    .settings-side-menu {
+        flex-direction: inherit !important;
+    }
+    .settings-form .form-group {
+        flex-direction: column;
+        align-items: start;
+        padding: 15px;
+    } 
+    .reports-section .edit-inner {
+        max-height: 100vh;
+    } 
+}
+
+@media screen and (max-width: 575px) {
+    :root {
+        --h1: normal 500 30px/1.3 var(--first-font);
+        --h2: normal 500 26px/1.3 var(--first-font);
+        --h3: normal 500 22px/1.3 var(--first-font);
+    } 
+    
+    .play-button i {
+        font-size: 16px;
+    }
+
+    .section-title {
+        text-align: center;
+    }
+
+    .sidebar-menu li a {
+        font-size: 14px;
+    }
+
+    .sidebar-menu li a svg {
+        height: 18px;
+        width: 18px;
+    }
+
+    .logo-col {
+        padding: 4px 0px
+    }
+
+    .about-profile-left img {
+        max-width: 45px;
+        height: auto; 
+    }
+
+    .pulse-ring,
+    .play-button {
+        width: 45px;
+        height: 45px;
+    } 
+
+    .user-profile .nice-select {  
+        min-width: 50px;
+        font-size: 10px;
+    }
+
+    .nice-select .option {
+        font-size: 12px; 
+    }
+
+    .user-profile .nice-select:after {
+        height: 8px;
+        width: 8px;
+        right: 7px;
+        background-size: 8px;
+    }
+    
+    .user-profile span  {
+        display: none;
+    }
+ 
+    .nice-select .list {
+        min-width: auto;
+    }
+    .upgrade-btn {
+        font-size: 12px;
+    }  
+
+    .stat-box {
+        max-width: 150px;
+    }
+
+    ul.tabs {
+        gap: 6px;
+        margin-bottom: 15px;
+    } 
+
+    .chart-wrapper {
+        height: 250px;
+    } 
+  
+    .stat-bar-bg {
+        height: 4px;
+    }
+
+    .user-overview-section {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+    }
+
+   .about-profile-right {
+        gap: 10px;
+    } 
+
+    ul.tabs li {
+        padding: 10px;
+    } 
+
+    .personal-info-section {
+        margin-top: 30px;
+    }
+    
+    .profile-pic-upload img {
+        width: 50px;
+        height: 50px;
+    } 
+
+    .activity-logs {
+        padding: 15px;
+    } 
+
+    .common-popup {
+        max-width: calc(100% - 30px);
+    } 
+    
+    .page-title h4 {
+        font-size: 16px;
+    } 
+    .card .card-header {
+        padding: 15px;
+    }
+    /* jobs-overview css */
+    .overview-content {
+        flex-direction: column;
+    } 
+    .project-details-grid { 
+        grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+    .add-jobs-form {
+        padding: 15px;
+    }
+    .edit-inner {
+        padding: 0px 15px 15px;
+    }
+    .password-filter {
+        margin-bottom: 15px;
+    }
+    .settings-side-menu {
+        flex-direction: column !important;
+    }
+    /* Report css  */
+    .quote-box h4 {
+        font-size: 14px;
+    }
+    .quote-box span { 
+         font-size: 13px; 
+    }
+} 
+
+@media screen and (max-width: 450px) {
+
+    .notification-dropdown { 
+        top: 45px;
+        right: -115px;
+        width: 300px;
+    }
+
+    .stat-box {
+        max-width: 120px;
+    }
+
+    .stat-box h3 {
+        font-size: 12px;
+    } 
+
+    .plans {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .trending-table {
+        font-size: 14px;
+    }
+
+    .task-item {
+        gap: 10px;
+    }
+
+    .trending-table th,
+    .trending-table td {
+        padding: 10px;
+    }
+ 
+    .dashboard-container {
+        padding: 15px;
+    }
+
+    .log-in-page .form-container {
+        margin: 15px;
+        padding: 15px;
+    } 
+ 
+    .activity .description {
+        flex-direction: column-reverse;
+        align-items: start !important;
+        gap: 10px; 
+    }
+    .time-line-activity {
+        gap: 5px;   
+        align-items: start !important;
+        flex-wrap: wrap ;
+    } 
+    /* common profile css  */
+    .common-profile-title ,
+    .common-profile-left{
+        text-align: center;
+        flex-direction: column; 
+    }
+    .project-info ,
+    .jobs-task {
+        padding: 15px;
+    }
+    .project-info .bordered {
+        padding-bottom: 10px;
+    }
+    /**** Quotes page css  ****/
+    .quote-meta-left .form-group ,
+    .quote-content .form-group {
+        flex-direction: column;
+        align-items: inherit;
+        margin-bottom: 15px;
+    }
+    .common-quote-wrp-left, 
+    .common-quote-wrp-right {
+        padding: 15px;
+    } 
+    /**** quote-preview css  ****/
+    .quote-content .form-group label {
+        min-width: 130px;
+    }
+    .preview-text-info {
+        max-width: 100%;
+        flex-direction: column;
+    }
+    .preview-quotes-wrp .text-info.quote-to {
+        text-align: inherit;
+    }
+    .preview-quotes-wrp .common-quote-wrp-left {
+        padding: 50px 15px 15px;
+    }
+    .preview-quotes-wrp .text-info {
+        max-width: 100%;
+    }
+    .quote-preview-header {
+        flex-direction: column;
+    }
+    .preview-quotes-wrp .quote-meta-left .form-group {
+        flex-direction: row;
+         margin-bottom: 0px;
+    }
+     .preview-quotes-wrp .quote-meta-left {
+        margin-top: 15px;
+     }
+     .quote-preview-content ul li {
+        flex-direction: column;
+     }
+     .totals-summary {
+        max-width: 100%;
+     }
+     .ribbon span {
+        width: 130px;
+        top: 9px;
+        font-size: 10px;  
+     } 
+     .quote-preview-content {
+        margin: 15px 0px;
+    }  
+    .quote-header-wrp {
+        gap: 10px;
+    }
+     .quote-meta-right .nice-select {
+        padding: 8px 30px 8px 15px;
+    }
+    .noti-permission .header {
+        font-size: 14px;
+    }
+    .intigrade-cards .card-header {
+        flex-direction: column;
+        align-items: start;
+    }
+    .intigrade-cards .btn {
+        font-size: 12px;
+    }
+    .intigrade-cards .card-header-img {
+        height: 74px;
+        min-width: 74px;
+    }
+      .security-setting .toggle-row {
+        align-items: start;
+        flex-direction: column;
+    } 
+    .activity-icon {
+        width: 38px;
+        height: 38px;
+        border-radius: 8px;
+        margin-right: 10px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+    }
+  
+}
